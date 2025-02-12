@@ -6,7 +6,7 @@ import (
 )
 
 type User struct {
-	ID       entity.ID `gorm:"type:uuid;primaryKey;default:gen_random_uuid()" json:"id"`
+	ID       entity.ID `json:"id"`
 	Name     string    `json:"name"`
 	Email    string    `json:"email"`
 	Password string    `json:"-"`
