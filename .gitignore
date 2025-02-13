@@ -5,5 +5,7 @@
 *.db-shm
 *.db-journal
 
+.env
+
 internal/infra/database/:memory
 
